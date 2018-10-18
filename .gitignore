@@ -1,5 +1,8 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# WR__ for Emacs hey
+*~
+
 # compiled output
 /dist
 /tmp
