@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { AppRoutingModule } from './app-routing.module';
+
 import { WrNavMaterialTwoComponent } from './wr-nav-material-two/wr-nav-material-two.component';
 
 import { LayoutModule } from '@angular/cdk/layout';
@@ -32,7 +34,8 @@ import { WrTableMaterialComponent } from './wr-table-material/wr-table-material.
     MatMenuModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+	AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
