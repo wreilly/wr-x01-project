@@ -2,6 +2,12 @@ import { Component } from '@angular/core';
 import { map } from 'rxjs/operators';
 import { Breakpoints, BreakpointState, BreakpointObserver } from '@angular/cdk/layout';
 
+/*
+20191026 edit, to test getting back into use of GIT.
+This file at:
+https://github.com/wreilly/wr-x01-project/blob/master/src/app/wr-dashboard-material/wr-dashboard-material.component.ts
+*/
+
 @Component({
   selector: 'app-wr-dashboard-material',
   templateUrl: './wr-dashboard-material.component.html',
